@@ -1,12 +1,13 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vanderbilt-data-science/ai_summer)
 
-# AI Summer
-> Summary repository for AI Summer 2022. Introduction to Transformer models, with practical applications to inferencing and training
+# AI Winter
+> Summary repository for AI Winter 2023. Introduction to Transformer models, with practical applications to inferencing and training
 
 Presented by Vanderbilt Data Science Institute data scientists:
 * Dr. Jesse Spencer-Smith, Chief Data Scientist
 * Dr. Charreau Bell, Senior Data Scientist
 * Umang Chaudhry, Data Scientist
+* Dr. Abbie Petulante, Data Scientist Postdoctoral Fellow
 
 ## Overview
 The objective of these workshops is to develop foundational skills in understanding, inferencing and training Transformer models primarily using HuggingFace, an extremely user-friendly API for transformers.  
@@ -26,31 +27,44 @@ To get the most out of this crash course in Python:
 
 - Sign up for a Google Collaboratory account. The free account should be sufficient, but you will get more compute (and longer running times) if you sign up for Colab Pro at ~$5/month.
 - Sign up for a Hugginface.co account. Again, the free account should be sufficient.
-- Suggested: Preview the book Natural Language Processing with Transformers by Lewis Tunstall, Leandro von Werra and Thomas Wolf. If you are affiliated with Vanderbilt University, you can access this pre-print book (and any book by O’Reilly) free by logging into O'Reilly Media using your Vanderbilt email address. Vanderbilt licenses all content from O’Reilly. The book covers Transformers for purposes beyond text. 
-- Think about any data you might want to bring to the workshop. Also begin thinking about any projects you might want to accomplish during our month. We’ll have office hours for you to work with us to get your first project off the ground!
+- Suggested: Preview the book Natural Language Processing with Transformers by Lewis Tunstall, Leandro von Werra and Thomas Wolf. Be sure to read Chapters 1, 2, and 3. If you are affiliated with Vanderbilt University, you can access this pre-print book (and any book by O’Reilly) free by logging into O'Reilly Media using your Vanderbilt email address. Vanderbilt licenses all content from O’Reilly. The book covers Transformers for purposes beyond text. 
+- Think about any data you might want to bring to the workshop. Also begin thinking about any short projects you might want to accomplish during our workshop. We’ll have office hours for you to work with us to get your first project off the ground!
 
 
 ## Workshop Schedule
 
-Mon, May 16	Introduction to Transformers, architecture, Huggingface models, datasets, spaces
+Workshops will be held each day from 11am to 2pm Central.
 
-Wed, May 18	Text applications / inferencing pipeline / sharing your work interactively with Gradio
+Tue, Jan 3	
+1. Topics Introduction to Transformers, architecture, Huggingface models, pipeline, datasets, spaces 
+Jesse
+Theory, and include coding
+Choose task, show visual, show pipeline, then show source code?
+Have meaningful tasks ready. Informed consent? 
+2. Preparation
+3. Resources
+4. Recording
+5. Homework / Next Steps
 
-Fri, May 20	Training for text / pushing to hub / custom Gradio - see https://github.com/vanderbilt-data-science/ai-summer-gradio
+Wed, Jan 4	Text applications / training your model / finding the right pretrained model / sharing your work interactively with Gradio / Tokenizers
+Charreau
 
-Mon, May 23	Audio models
+Thu, Jan 5	Audio / Image Training and Tasks/ pushing to hub /
+Meaninful examples, Junmin dataset?
+Audio, Libre speech? Other?
+Charreau, Abbie
 
-Wed, May 25	Audio models / Image models
+Fri, Jan 6	Gradio and datasets
+Text Informed consent analysis task
+Image Junmin? 
+Audio ?
+Umang (Gradio)
+Abbie (Datasets)
+## Zoom
 
-Fri, May 27	Image models
+https://vanderbilt.zoom.us/j/93106090449?pwd=OTdlaXZsTlVVdml2ZDhUQlJOODcyZz09&from=addon
 
-Mon, May 30	Custom models from scratch/special tokens/domain adaptation
-
-Wed, Jun 1	Custom models from scratch/Perceiver IO
-
-Fri, Jun 3	Research Presentation / Whirlwind tour of what's new / Next Steps
-
-## Breakout Rooms
+Breakout Rooms
 During these workshops, we'll have a number of breakout rooms where you'll work with others for discussion or develop code to solve an assignment.  Please screenshot or paste your results in the following Google doc: 
 
 https://docs.google.com/document/d/15deDo3TBlgue_7ueoHake-O3HoEqCZKBZOHWfmfUlFQ/edit?usp=sharing
@@ -64,7 +78,7 @@ During a live session, open https://cups.fast.ai/vanderbilt-ai-summer and click 
 Video recordings of these workshops can be found at the links below:
 
 ### AI with Transformers
-Note: Titles of the records may say "Office Hours," but they are of the course.
+
 
 #### Week 1: Python for AI
 [VU Python for AI](https://github.com/vanderbilt-data-science/p4ai-essentials/):
@@ -104,5 +118,6 @@ DGX A100 Compute Grant: https://forms.gle/2mGfEy9DB4JU2GpZ8
 ### Transformers
 -  Natural Language Processing with Transformers by Lewis Tunstall, Leandro von Werra and Thomas Wolf. If you are affiliated with Vanderbilt University, you can access this pre-print book (and any book by O’Reilly) free by logging into O'Reilly Media using your Vanderbilt email address. Vanderbilt licenses all content from O’Reilly. The book covers Transformers for purposes beyond text. 
 
+https://github.com/vanderbilt-data-science/ai-summer-gradio
 
 
